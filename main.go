@@ -3,9 +3,10 @@ package main
 import (
 	"errors"
 	"fmt"
-	"mdisprgm/goball/utils"
 	"strconv"
 	"time"
+
+	"github.com/mdisprgm/goball/utils"
 )
 
 type Baller struct {

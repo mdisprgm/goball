@@ -1,3 +1,3 @@
-module mdisprgm/goball
+module github.com/mdisprgm/goball
 
 go 1.18
