@@ -79,7 +79,7 @@ func main() {
 	game.Setup()
 	fmt.Println("숫자를 생성했습니다")
 
-	for i := 0; i < 100; i++ {
+	for {
 		var user_str string
 
 		fmt.Print("정답을 예측하세요 : ")
