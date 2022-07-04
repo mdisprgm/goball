@@ -87,7 +87,7 @@ func main() {
 		utils.IsSafe(err)
 
 		if s == 3 {
-			fmt.Println("정답입니다")
+			fmt.Printf("정답입니다! (%s)\n", user_str)
 			return
 		}
 
