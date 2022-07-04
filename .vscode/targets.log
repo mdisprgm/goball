@@ -1,0 +1,346 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ����ũ ����Ÿ���̽�, Tue Jul 05 00:14:08 2022
+�� ǥ��
+# ����
+
+# ȯ��
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
+# �ڵ�
+?F = $(notdir $?)
+# �ڵ�
+<D = $(patsubst %/,%,$(dir $<))
+# ȯ��
+OMP_WAIT_POLICY = PASSIVE
+# ȯ��
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# ����ũ����
+MAKEFLAGS = Rrqp
+# ȯ��
+VSCODE_LOG_NATIVE = false
+# �ڵ�
+?D = $(patsubst %/,%,$(dir $?))
+# �ڵ�
+@D = $(patsubst %/,%,$(dir $@))
+# ȯ��
+HOMEDRIVE = C:
+# �ڵ�
+@F = $(notdir $@)
+# �ڵ�
+^D = $(patsubst %/,%,$(dir $^))
+# ����ũ����
+CURDIR := c:/Users/victo/goball
+# �⺻��
+SHELL := sh.exe
+# ȯ��
+WINDIR = C:\WINDOWS
+# ȯ��
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"26f3b44ea4f1e942cca002e9545643cc.ko","_translationsConfigFile":"C:\\Users\\victo\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\tcf.json","_cacheRoot":"C:\\Users\\victo\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\victo\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\victo\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\corrupted.info","_languagePackSupport":true}
+# ȯ��
+ONEDRIVE = C:\Users\victo\OneDrive
+# ȯ��
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.code-workspace
+# ����ũ���� (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# ȯ��
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ȯ��
+TMP = C:\Users\victo\AppData\Local\Temp
+# ȯ��
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ȯ��
+VSCODE_VERBOSE_LOGGING = true
+# ȯ��
+PROGRAMW6432 = C:\Program Files
+# ȯ��
+PROGRAMDATA = C:\ProgramData
+# ȯ��
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b5767d00-1673-491a-ad71-0c4955841dec-sock
+# ȯ��
+VSCODE_CWD = C:\Users\victo
+# ȯ��
+GOPROXY = https://proxy.golang.org,direct
+# ȯ��
+PATH = C:\Program Files\Go\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\sc;C:\MinGW\bin;C:\tools\vim\vim82;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools;C:\Program Files\dotnet\;C:\tools\php81;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\OpenJDK\jdk-11.0.2\bin;C:\Program Files\Redis\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Python27;C:\Users\victo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\victo\AppData\Local\Programs\Python\Python310\;C:\Users\victo\.cargo\bin;C:\Users\victo\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\victo\AppData\Local\Programs\Python\Python37\;C:\Users\victo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\victo\AppData\Local\Programs\Python\Python39\;C:\Users\victo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\victo\.dotnet\tools;C:\Users\victo\go\bin;C:\Users\victo\Desktop\win-x64;C:\Users\victo\go\src\github.com\mdisprgm;C:\Users\victo\AppData\Local\bin\NASM;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;C:\Users\victo\AppData\Roaming\Composer\vendor\bin;C:\Users\victo\.dotnet\tools;C:\Users\victo\AppData\Roaming\npm;C:\Users\victo\go\bin;C:\Users\victo\.deno\bin;C:\Users\victo\go\bin;
+# ȯ��
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ȯ��
+CHOCOLATEYLASTPATHUPDATE = 132851452760308380
+# ȯ��
+PROCESSOR_ARCHITECTURE = x86
+# ȯ��
+USERPROFILE = C:\Users\victo
+# ȯ��
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# ȯ��
+ALLUSERSPROFILE = C:\ProgramData
+# ȯ��
+GOPATH = C:\Users\victo\go
+# ȯ��
+VSCODE_LOG_STACK = false
+# ȯ��
+NUMBER_OF_PROCESSORS = 12
+# ȯ��
+ELECTRON_RUN_AS_NODE = 1
+# �⺻��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �ڵ�
+%F = $(notdir $%)
+# ȯ��
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19700_TOVELKQLZPOXLIIW
+# ȯ��
+VSCODE_PIPE_LOGGING = true
+# ȯ��
+COMPUTERNAME = DESKTOP-DIJ6JUI
+# ȯ��
+PROGRAMFILES = C:\Program Files (x86)
+# ȯ��
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ȯ��
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ȯ��
+USERNAME = victo
+# ȯ��
+PUBLIC = C:\Users\Public
+# ȯ��
+GOMODCACHE = C:\Users\victo\go\pkg\mod
+# ȯ��
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# ȯ��
+VSCODE_CLI = 1
+# ȯ��
+VSCODE_CODE_CACHE_PATH = C:\Users\victo\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# ȯ��
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# ȯ��
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ȯ��
+LOGONSERVER = \\DESKTOP-DIJ6JUI
+# ȯ��
+ONEDRIVECONSUMER = C:\Users\victo\OneDrive
+# ȯ��
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ȯ��
+USERDOMAIN = DESKTOP-DIJ6JUI
+# ȯ��
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;
+# �⺻��
+MAKE = $(MAKE_COMMAND)
+# �⺻��
+MAKECMDGOALS := all
+# ȯ��
+JAVA_HOME = C:\Program Files\OpenJDK\jdk-11.0.2
+# �⺻��
+MAKE_VERSION := 3.81
+# ����ũ����
+.DEFAULT_GOAL := main
+# ȯ��
+GOROOT = C:\Program Files\Go
+# ȯ��
+CLASS_PATH = C:\Program Files\OpenJDK\jdk-11.0.2\lib
+# ȯ��
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �ڵ�
+%D = $(patsubst %/,%,$(dir $%))
+# ȯ��
+LOCALAPPDATA = C:\Users\victo\AppData\Local
+# ȯ��
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �⺻��
+MAKE_COMMAND := make.exe
+# ȯ��
+PROCESSOR_ARCHITEW6432 = AMD64
+# �⺻��
+.VARIABLES := 
+# �ڵ�
+*F = $(notdir $*)
+# ȯ��
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# ȯ��
+OS = Windows_NT
+# ȯ��
+VSCODE_IPC_HOOK = \\.\pipe\12e62919a7085bb4c552e5667ae1db66-1.68.1-main-sock
+# ȯ��
+KMP_BLOCKTIME = 0
+# ȯ��
+HOMEPATH = \Users\victo
+# ȯ��
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ȯ��
+PROMPT = $P$G
+# ȯ��
+MFLAGS = -Rrqp
+# �ڵ�
+*D = $(patsubst %/,%,$(dir $*))
+# ȯ��
+SYSTEMROOT = C:\WINDOWS
+# �ڵ�
++D = $(patsubst %/,%,$(dir $+))
+# �ڵ�
++F = $(notdir $+)
+# ȯ��
+APPDATA = C:\Users\victo\AppData\Roaming
+# ȯ��
+TEMP = C:\Users\victo\AppData\Local\Temp
+# ȯ��
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# ȯ��
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �⺻��
+MAKEFILES := 
+# �ڵ�
+<F = $(notdir $<)
+# ȯ��
+LC_ALL = C
+# �ڵ�
+^F = $(notdir $^)
+# �⺻��
+SUFFIXES := 
+# ȯ��
+SYSTEMDRIVE = C:
+# ȯ��
+SESSIONNAME = Console
+# ȯ��
+PROCESSOR_REVISION = 2100
+# ȯ��
+MAKELEVEL := 0
+# ȯ��
+LANG = C
+# ȯ��
+PROCESSOR_LEVEL = 25
+# ȯ��
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ȯ��
+VSCODE_PID = 19700
+# ȯ��
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-DIJ6JUI
+# variable set hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=11/125=9%
+
+# Pattern-specific Variable Values
+
+# ������ ���� ���� ������ �����ϴ�.
+
+# ���丮
+
+# C:\Users\victo\go\bin (Ű C:/Users/victo/go/bin, ����ð� 1656942226): 14 ����, 0�� �Ұ���.
+# C:\Program Files\Bandizip\ (Ű C:/Program Files/Bandizip/, ����ð� 1650442774): 21 ����, 0�� �Ұ���.
+# C:\Program Files\Docker\Docker\resources\bin (Ű C:/Program Files/Docker/Docker/resources/bin, ����ð� 1647262782): 13 ����, 0�� �Ұ���.
+# C:\Program Files\Go\bin (Ű C:/Program Files/Go/bin, ����ð� 1649071732): 4 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (Ű C:/WINDOWS/System32/WindowsPowerShell/v1.0/, ����ð� 1630627542): 32 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\Wbem (Ű C:/WINDOWS/System32/Wbem, ����ð� 1652696550): 155 ����, 0�� �Ұ���.
+# . (Ű c:/Users/victo/goball, ����ð� 1656947647): 8 ����, 0�� �Ұ���.
+# C:\tools\vim\vim82 (Ű C:/tools/vim/vim82, ����ð� 1630706668): 79 ����, 0�� �Ұ���.
+# C:\Program Files\nodejs\ (Ű C:/Program Files/nodejs/, ����ð� 1642768421): 13 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (Ű C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����ð� 1630646306): 10 ����, 0�� �Ұ���.
+# C:\Users\victo\Desktop\win-x64: stat�� �� �� �������ϴ�.
+# C:\ProgramData\chocolatey\bin (Ű C:/ProgramData/chocolatey/bin, ����ð� 1630636377): 13 ����, 0�� �Ұ���.
+# C:\Program Files\dotnet\ (Ű C:/Program Files/dotnet/, ����ð� 1655321317): 13 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Programs\Python\Python37\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python37/, ����ð� 1640006642): 3 ����, 0�� �Ұ���.
+# C:\MinGW\bin (Ű C:/MinGW/bin, ����ð� 1630933744): 127 ����, 0�� �Ұ���.
+# C:\Program Files\OpenJDK\jdk-11.0.2\bin (Ű C:/Program Files/OpenJDK/jdk-11.0.2/bin, ����ð� 1651152882): 123 ����, 0�� �Ұ���.
+# C:\Users\victo\.deno\bin (Ű C:/Users/victo/.deno/bin, ����ð� 1648032405): 3 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Programs\Python\Python310\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python310/, ����ð� 1643539652): 28 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\bin\NASM (Ű C:/Users/victo/AppData/Local/bin/NASM, ����ð� 1651233353): 18 ����, 0�� �Ұ���.
+# C:\Program Files\PowerShell\7\ (Ű C:/Program Files/PowerShell/7/, ����ð� 1656660458): 478 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Programs\Python\Python37\Scripts\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python37/Scripts/, ����ð� 1634011621): 2 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\OpenSSH\: stat�� �� �� �������ϴ�.
+# C:\ProgramData\ComposerSetup\bin (Ű C:/ProgramData/ComposerSetup/bin, ����ð� 1640672184): 5 ����, 0�� �Ұ���.
+# C:\Program Files\Python310\: stat�� �� �� �������ϴ�.
+# C:\Program Files\Microsoft VS Code\bin (Ű C:/Program Files/Microsoft VS Code/bin, ����ð� 1655451149): 4 ����, 0�� �Ұ���.
+# C:\tools\php81 (Ű C:/tools/php81, ����ð� 1640671839): 40 ����, 0�� �Ұ���.
+# C:\WINDOWS (Ű C:/WINDOWS, ����ð� 1656643787): 122 ����, 0�� �Ұ���.
+# C:\Program Files\Python310\Scripts\: stat�� �� �� �������ϴ�.
+# C:\Users\victo\AppData\Roaming\npm (Ű C:/Users/victo/AppData/Roaming/npm, ����ð� 1648259775): 45 ����, 0�� �Ұ���.
+# C:\Users\victo\.dotnet\tools: stat�� �� �� �������ϴ�.
+# C:\Users\victo\AppData\Roaming\Composer\vendor\bin: stat�� �� �� �������ϴ�.
+# C:\Users\victo\.cargo\bin (Ű C:/Users/victo/.cargo/bin, ����ð� 1640232107): 15 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\dotnet\ (Ű C:/Program Files (x86)/dotnet/, ����ð� 1655321342): 8 ����, 0�� �Ұ���.
+# C:\ProgramData\DockerDesktop\version-bin: stat�� �� �� �������ϴ�.
+# C:\Users\victo\AppData\Local\Programs\Python\Python39\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python39/, ����ð� 1630649436): 7 ����, 0�� �Ұ���.
+# C:\Program Files\Redis\ (Ű C:/Program Files/Redis/, ����ð� 1652257287): 21 ����, 0�� �Ұ���.
+# C:\WINDOWS\system32 (Ű C:/WINDOWS/system32, ����ð� 1656937862): 3051 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/victo/AppData/Local/Microsoft/WindowsApps, ����ð� 1656669166): 25 ����, 0�� �Ұ���.
+# D:\sc (Ű D:/sc, ����ð� 1645075299): 4 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Programs\Python\Python39\Scripts\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python39/Scripts/, ����ð� 1630636738): 5 ����, 0�� �Ұ���.
+# C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin (Ű C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.3.1/bin, ����ð� 1642839999): 32 ����, 0�� �Ұ���.
+# C:\Users\victo\go\src\github.com\mdisprgm (Ű C:/Users/victo/go/src/github.com/mdisprgm, ����ð� 1639911630): 6 ����, 0�� �Ұ���.
+# C:\Users\victo\AppData\Local\Programs\Python\Python310\Scripts\ (Ű C:/Users/victo/AppData/Local/Programs/Python/Python310/Scripts/, ����ð� 1656933992): 7 ����, 0�� �Ұ���.
+# C:\Program Files\Git\cmd (Ű C:/Program Files/Git/cmd, ����ð� 1656559298): 8 ����, 0�� �Ұ���.
+# C:\Python27 (Ű C:/Python27, ����ð� 1640006938): 17 ����, 0�� �Ұ���.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (Ű C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, ����ð� 1630641477): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1656565211): 5 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Touch Portal\plugins\adb\platform-tools (Ű C:/Program Files (x86)/Touch Portal/plugins/adb/platform-tools, ����ð� 1631244019): 22 ����, 0�� �Ұ���.
+
+# 4611 ����, 0�� impossibilities in 48 directories.
+
+# Implicit Rules
+
+# ������ ��Ģ ����.
+
+# ����
+
+# Ÿ���� �ƴ�:
+all:
+#  ������ Ÿ��.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.DEFAULT:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+makefile:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2022-07-04 22:53:10
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.SUFFIXES:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+main:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`makefile'����, 2��° ��):
+	go build && .\goball.exe
+	
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Ž�� ���
+
+# `vpath' Ž�� ��ΰ� ����.
+
+# �Ϲ����� (`VPATH' ����) Ž�� ��ΰ� ����.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# ����ũ ����Ÿ ���̽� ��ħ, Tue Jul 05 00:14:08 2022
+����
+ 
+make.exe: *** Ÿ�� `all'�� ���� ��Ģ�� ����.  ����.
+
