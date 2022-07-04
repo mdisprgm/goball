@@ -37,8 +37,7 @@ func (bl *Baller) Check(s string) (int, int, error) {
 		return -1, -1, errors.New("잘못된 입력입니다")
 	}
 
-	strike := 0
-	ball := 0
+	var strike, ball int
 
 	user_number, _ := strconv.Atoi(s)
 
@@ -64,11 +63,10 @@ func (bl *Baller) Check(s string) (int, int, error) {
 	return strike, ball, nil
 }
 
-func isSafe(err error) bool {
+func isSafe(err error) {
 	if err != nil {
 		panic(err)
 	}
-	return true
 }
 
 func main() {
