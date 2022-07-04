@@ -39,6 +39,11 @@ func (bl *Baller) Check(s string) (int, int, error) {
 
 	var strike, ball int
 
+	if s[0] == s[1] || s[1] == s[2] || s[0] == s[2] {
+		fmt.Println("중복된 숫자가 있습니다")
+		return -1, -1, nil
+	}
+
 	user_number, _ := strconv.Atoi(s)
 
 	ua := user_number / 100
