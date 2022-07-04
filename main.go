@@ -91,6 +91,9 @@ func main() {
 			return
 		}
 
+		if s < 0 || b < 0 {
+			continue
+		}
 		fmt.Printf("%v -> S%v, B%v\n", user_str, s, b)
 	}
 }
