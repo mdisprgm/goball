@@ -1,20 +1,12 @@
 package main
 
 import (
-	"bufio"
 	"errors"
 	"fmt"
 	"mdisprgm/goball/utils"
-	"os"
 	"strconv"
 	"time"
 )
-
-var __stdin__ = bufio.NewReader(os.Stdin)
-
-func flush() {
-	__stdin__.ReadLine()
-}
 
 type Baller struct {
 	a, b, c int
@@ -68,12 +60,6 @@ func (bl *Baller) Check(s string) (int, int, error) {
 	return strike, ball, nil
 }
 
-func isSafe(err error) {
-	if err != nil {
-		panic(err)
-	}
-}
-
 func main() {
 	utils.Seed(time.Now().UnixNano())
 
@@ -87,17 +73,17 @@ func main() {
 
 		fmt.Print("정답을 예측하세요 : ")
 		for cnt, err := fmt.Scan(&user_str); cnt != 1 || len(user_str) != 3; {
-			isSafe(err)
+			utils.IsSafe(err)
 			fmt.Println("세 자리 수를 입력해주세요")
-			flush()
+			utils.Flush()
 
 			fmt.Print("정답을 예측하세요 : ")
 			cnt, err = fmt.Scan(&user_str)
-			isSafe(err)
+			utils.IsSafe(err)
 		}
 
 		s, b, err := game.Check(user_str)
-		isSafe(err)
+		utils.IsSafe(err)
 
 		if s == 3 {
 			fmt.Println("정답입니다")
