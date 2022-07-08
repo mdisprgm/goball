@@ -69,16 +69,18 @@ func main() {
 	game.Setup()
 	fmt.Println("숫자를 생성했습니다")
 
+	triedCount := 1
+
 	for {
 		var user_str string
 
-		fmt.Print("정답을 예측하세요 : ")
+		fmt.Printf("[%v] 정답을 예측하세요 : ", triedCount)
 		for cnt, err := fmt.Scan(&user_str); cnt != 1 || len(user_str) != 3; {
 			utils.IsSafe(err)
 			fmt.Println("세 자리 수를 입력해주세요")
 			utils.Flush()
 
-			fmt.Print("정답을 예측하세요 : ")
+			fmt.Printf("[%v] 정답을 예측하세요 : ", triedCount)
 			cnt, err = fmt.Scan(&user_str)
 			utils.IsSafe(err)
 		}
@@ -87,7 +89,7 @@ func main() {
 		utils.IsSafe(err)
 
 		if s == 3 {
-			fmt.Printf("정답입니다! (%s)\n", user_str)
+			fmt.Printf("정답입니다! (%v회, %v)\n", triedCount, user_str)
 			return
 		}
 
@@ -95,5 +97,7 @@ func main() {
 			continue
 		}
 		fmt.Printf("%v -> S%v, B%v\n", user_str, s, b)
+
+		triedCount++
 	}
 }
